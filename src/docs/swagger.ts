@@ -29,6 +29,9 @@ const doc = {
         identifier: "bielawan",
         password: "1234567890",
       },
+      ActivationRequest: {
+        code: "abcdef"
+      }
     },
   },
 };
