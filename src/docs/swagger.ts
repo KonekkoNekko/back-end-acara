@@ -30,8 +30,30 @@ const doc = {
         password: "1234567890",
       },
       ActivationRequest: {
-        code: "abcdef"
-      }
+        code: "abcdef",
+      },
+      CreateCategoryRequest: {
+        name: "",
+        description: "",
+        icon: ""
+      },
+      CreateEventRequest: {
+        name: "",
+        banner: "fileUrl",
+        category: "Category ObjectID",
+        description: "",
+        startDate: "yyyy-mm-dd hh:mm:ss",
+        endDate: "yyyy-mm-dd hh:mm:ss",
+        location: {
+          region: "RegionID",
+          coordinates: [0, 0],
+        },
+        isOnline: false,
+        isFeatured: false,
+      },
+      RemoveMediaRequest: {
+        fileUrl: ""
+      },
     },
   },
 };
